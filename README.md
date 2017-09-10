@@ -1,5 +1,14 @@
 # python-virtualenv-tldr
+You can either run the setup script or follow the instructions below for setting up a virtualenv.
 
+## The automated way (but not tested!)
+```
+chmod +x setup.sh
+./setup.sh your_env_name path_to_project_directory
+```
+
+
+## The long way
 Install the basic virtualenv programs for python3. This will allow you to great project specific dependencies.
 ```
 pip3 install virtualenv
